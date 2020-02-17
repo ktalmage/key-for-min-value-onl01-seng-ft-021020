@@ -8,7 +8,7 @@ smallest_key = nil
 smallest_value = nil
 
 name_hash.each do |key,value|
-  if smallest_value == nil || value < smallest value
+  if smallest_value == nil || value < smallest_value
     binding.pry
     smallest_value = value
     smallest_key = key
